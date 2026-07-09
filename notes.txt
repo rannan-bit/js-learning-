@@ -1,0 +1,37 @@
+JS
+* js is high level programming language
+* used for make web dynamic
+* node is require to run js outside of the browser
+* node.js : provide js run time environment + js libraries
+
+*basic concept:
+    - console.log(): used for display content
+    - data types: 
+        - primitive
+        - non primitive
+        - complex
+
+        * typeof :used to check data type
+
+        *primitive:
+            * js has number and string datatypes
+                -number: any number
+                -string: text or words (if content is in "" or'' then it will be treated as string)
+
+            *next datatypes: boolean
+            * undefined datatypes: if a variable has not assigned a value then it shows undefined when its typeof
+            * null datatypes: no value , can assign in future
+            * big int datatypes:used for store very large integers thet are larger than the maximum safe integer support by the number type.
+            * symbol datatypes: a  unique and immutable value, every symbol is different, even it has same description
+
+        * we can create variable in three ways:
+            -var :
+                syntax: var variable_name/ var variable_name=value
+            -let :
+                syntax:
+            -const
+
+    * scope: scope referce to where a variable can access in your code.
+        -global scope:it can access from anywhere in the program.
+        -functional scop: variable declared whithin the function only accessed whithin
+    *Hoisting: hoisting is a js behaviour where variable        
