@@ -34,4 +34,85 @@ JS
     * scope: scope referce to where a variable can access in your code.
         -global scope:it can access from anywhere in the program.
         -functional scop: variable declared whithin the function only accessed whithin
-    *Hoisting: hoisting is a js behaviour where variable        
+    *Hoisting: hoisting is a js behaviour where variable   
+
+
+
+
+    13/07/2026
+
+
+    -variable creation using let:
+        *syntax: let variable_name / let variable_name=value 
+    -let : block scope   
+
+    Feature                 var                             let                                     const
+    -----------------------------------------------------------------------------------------------------------------------------------------
+    scope                   function                        block{}                                 block{}
+    can be re-declared      yes                             yes                                     no
+    can be re-initialized   no                              yes                                     yes
+    hoisted                 yes(initialized as undefined)   yes(initialized without a value)        yes(no value)
+    can be re-assignment    yes                             yes                                     no
+
+join:
+
+ * we can use , or + for join operation  
+ * we can also use ` and ${} - tember
+    - entire content inside the ``(back tick) and the variables are inside the ${}
+
+
+Operators:
+    -Assignment operators(=): used to assign values
+    -Arithmetic operator(+): 
+        - + Additon
+        - - Substraction
+        - * Multiplication
+        - / Division
+        - % Modulus
+        - ** Exponentiation
+
+    -Relational operators
+        - < (less than)
+        - > (greater than)
+        - >= (greater than or equal)
+        - <= (less than or equal)
+        - != (not equal)
+        - == (equal)(value only)
+        - == (strict equal)(value + type)
+
+    -Logical operators
+        - && (AND)
+        - !! (OR)
+        - ! (NOT)
+    
+    -Unary Operators
+        -increment (++)
+        -decrement (--)
+
+    * short term operation
+        z=z+10 --> z+=10
+
+
+* conditional statement
+    -if
+        syntax: if(condition){
+            statement
+        }
+    -if-else
+        syntax: if(condition){
+            statement
+        }
+        else{
+            statement
+        }
+    -else-of ladder
+         syntax: if(condition){
+            statement
+        }
+        else if(){
+            statement
+        }
+        else if(){
+
+        }......
+    -switch
