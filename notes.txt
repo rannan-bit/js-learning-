@@ -115,4 +115,28 @@ Operators:
         else if(){
 
         }......
-    -switch
+    -switch                                                                                        14/07/2026
+
+
+
+*Truthy operator:
+    syntax: condition &&
+    -only applicable if there is only one condition to check
+    -equalent for if conditional statement
+
+*Ternory operator:
+    syntax: condition?statement:else_statement
+    -equalent for if else conditional statement
+    -eg:- age>=18?console.log("eligible for voting"):console.log("not eligible for voting")
+
+
+*Loops
+--------
+    -for
+    -while
+        syntax: while(condition){
+            statement
+            update i
+        }
+    -do while
+    -
