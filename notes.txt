@@ -151,3 +151,49 @@ Operators:
     syntax: function function_name(parameteres){
         code to be executed
     }
+    - function is hoisted
+    - parameteres:
+         eg:- add(a,b):
+             *here a,b are parameteres
+    - argument:
+        * when we pass the value, it is called argument, 
+            *eg:-add(30,40)
+            * here 30,40 are arguments
+    
+
+    - return: return is used to teke the final value of a function to outside
+        *eg:- function multiply(a,b){
+                return a*b
+                }
+                console.log(multiply(4,5));
+
+
+    Types of function
+    ------------------
+    1. Function Declaration( Named Function)  
+       Function is declared using function keyword
+
+    2. Function Expression:
+        a function is assigned to a variable
+
+    3. Arrow Function:
+        - Arrow function is not hoisted
+        - if Arrow function has only single line of statement then there is no need of {} and it automatically display the result.                                      
+
+    4. Callback Function
+        - it is an asynchrounos function
+        - when an function passes as argument of another function, then the function passes like argument is called Callback function.
+        - a function passes as argument to another function. It is executed later
+    
+    5. Anonymous Function:
+        - A function without a name. It is often used as an argument to another function.
+
+    6. Pre-defined Function:
+        - functions that are already provided by JS. We do not need to create them. We can use them directly
+          ex:- console.log(), Math.floor(), Number()....
+    
+    7. Nested Function:
+        -A function that are defined inside another function. It can access the variables of it's outer function and can only be called from within the outer function.
+        - closure: is a property by which a nested function can access and remember the variables to the outer function, even after the outer function has completed execution
+
+    8. Recursive Function
