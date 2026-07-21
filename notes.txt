@@ -140,3 +140,14 @@ Operators:
         }
     -do while
     -
+
+
+
+                                                                                                                21/07/2026
+    function
+    ---------
+
+    - function is a reusable block of code that perform a specific task. It runs only when it is called
+    syntax: function function_name(parameteres){
+        code to be executed
+    }
