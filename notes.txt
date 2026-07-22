@@ -197,3 +197,20 @@ Operators:
         - closure: is a property by which a nested function can access and remember the variables to the outer function, even after the outer function has completed execution
 
     8. Recursive Function
+        - A function that calls itself repetedly until a specific condition is met.
+        - A Recursive function must have
+            - base condition: stop the recursion
+            - recursive call: function call itself
+
+
+    Array
+    -----
+    - A array is a data structure in js that allows us to store multiple values of any datatype in a single variable.
+    - syntax:- variable_name=[] / variable_name=[value1,value2,value3,......]
+    - Type of an array is object
+    - Index value: position number used to identify and access elements in an array
+    - length(): property used to get the length of an array
+    - accessing array element:
+        - using for Loops
+        - using for - of loop 
+        - using for - in loop
