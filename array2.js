@@ -1,3 +1,4 @@
+const prompt=require('prompt-sync')({sigint:true})
 let numArray=[12,6,18,4,2,23]
 
 // find smallest number
@@ -18,7 +19,7 @@ for(let num of numArray){
         smallest=num
     }
 }
-console.log(smallest);
+console.log(`smallest number is ${smallest}`);
 
 //largest
 let largest=numArray[0]
@@ -27,5 +28,24 @@ for(let num of numArray){
         largest=num
     }
 }
-console.log(largest);
+console.log(`largest number is ${largest}`);
+
+console.log("--------------------------");
+
+
+let num=prompt("Enter the number")
+let found=false
+for(let i of numArray){
+    if(num==i){
+        found=true      
+        break  
+    }
+}if(found){
+    console.log(`${num} is found`);
+    
+}else{
+    console.log(`${num} is not found`);
+    
+}
+
 
